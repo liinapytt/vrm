@@ -8,21 +8,13 @@
         <title>I-Tamm</title>
         <link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css">
         <link rel="stylesheet" type="text/css" media="screen" href="/css/base.css">
-
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/header.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/footer.css">
     </head>
     <body>
-        Teretulemast!
-        <div class="header">
-            <span class="header__heading">
-                Tamme hotell
-            </span>
-        </div>
+        {{ include('_header.html.twig') }}
         <div class="content"></div>
-        <div class="footer">
-            <div class="footer__text">
-                Created by Tamme tenniseklubi OÜ - <a href="http://www.tammetennis.ee/">www.tammetennis.ee</a>
-            </div>
-        </div>
+        {{ include('_footer.html.twig') }}
 
     </body>
 </html>
