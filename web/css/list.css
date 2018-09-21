@@ -1,0 +1,23 @@
+/* Styling for table lists */
+	
+.booking-table {
+
+    border: 1px solid #D3D3D3;
+
+    padding: 1em;
+
+    border-collapse: collapse;
+
+}
+
+
+
+.booking-table th,
+
+.booking-table td {
+
+    border: 1px solid #D3D3D3;
+
+    padding: .5em;
+
+}
