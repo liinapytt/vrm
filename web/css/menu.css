@@ -1,0 +1,26 @@
+/**
+ * Css file for Booking app menu styling
+ */
+.menu {
+    height: 4em;
+    padding-left: 6em;
+    margin-top: 2em;
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 1em;
+    border: 3px solid #D3D3D3;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    color: #787878;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.menu-link.active {
+    color: #551A8B;
+}
